@@ -45,18 +45,18 @@ namespace EmptyBlanket
         public string CommitDrool()
         {
             _drool = _drool - 1;
-            return "Drool";
+            return $"Drool {_drool}";
         }
 
         public string CommitScream()
         {
             _scream = _scream - 1;
-            return "Scream";
+            return $"Scream {_scream}";
         }
         public string CommitBark()
         {
             _bark = _bark - 1;
-            return "Bark";
+            return $"Bark {_bark}";
         }
 
         #endregion
