@@ -24,7 +24,7 @@ namespace EmptyBlanket
 
         public string GetInfo()
         {
-            return $"{Name} was born {YoB}, is: {Color} and has a {Pattern} pattern.";
+            return $"{Name} was born: {YoB}, is the color: {Color} and has a: {Pattern} pattern.";
         }
         
     }
